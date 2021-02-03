@@ -7,8 +7,12 @@
         things.
       </h2>
     </div>
-    <div class="intro-img raisedbox">
-      <img src="../assets/images/portrait-img.jpg" alt="portrait photo" />
+    <div class="intro-img ">
+      <img
+        class="raisedbox"
+        src="../assets/images/portrait-img.jpg"
+        alt="portrait photo"
+      />
     </div>
   </div>
 </template>
@@ -19,12 +23,12 @@ export default {};
 
 <style scoped>
 h1 {
-  font-size: 6rem;
-  padding-bottom: 8rem;
+  font-size: 8rem;
+  padding-bottom: 15rem;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .intro-container {

@@ -2,6 +2,7 @@
   <div class="container">
     <Nav />
     <Main />
+    <!-- <Skills /> -->
     <Footer />
   </div>
 </template>
@@ -10,6 +11,7 @@
 import Nav from './components/Nav';
 import Main from './components/Main.vue';
 import Footer from './components/Footer';
+// import Skills from './components/Skills';
 
 export default {
   name: 'App',
@@ -17,6 +19,7 @@ export default {
     Nav,
     Main,
     Footer,
+    // Skills,
   },
 };
 </script>
@@ -34,12 +37,26 @@ body {
   font-weight: 700;
 }
 
+body::-webkit-scrollbar {
+  width: 1.2rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #2f2f2f;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #cacaca;
+}
+
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding: 5.5rem;
 }
 
 .container {
   margin: 3rem 20rem;
-  height: calc(100vh - 8rem);
+  height: calc(100vh - 6rem);
 }
 </style>

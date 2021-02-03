@@ -1,7 +1,21 @@
-<template></template>
+<template>
+  <div class="skills-content">
+    <Card />
+  </div>
+</template>
 
 <script>
-export default {};
+import Card from './Card';
+
+export default {
+  components: {
+    Card,
+  },
+};
 </script>
 
-<style scoped></style>
+<style scoped>
+.skills-content {
+  height: calc(100% - 6rem);
+}
+</style>

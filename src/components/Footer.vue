@@ -1,8 +1,14 @@
 <template>
-  <footer class="footer-container">
+  <footer>
     <ul>
-      <li class="nav-link"><a class="underline" href="#">LinkedIn</a></li>
-      <li class="nav-link"><a class="underline" href="#">Github</a></li>
+      <li class="nav-link">
+        <a class="underline" href="https://www.linkedin.com/in/curthouse/"
+          >LinkedIn</a
+        >
+      </li>
+      <li class="nav-link">
+        <a class="underline" href="https://github.com/Neurum">Github</a>
+      </li>
     </ul>
     <h3>&copy; Curt House. All rights reserved.</h3>
     <a href="#" class="logo">
