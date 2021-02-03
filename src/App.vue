@@ -30,7 +30,7 @@ export default {
 body {
   background-color: #2f2f2f;
   color: lightgray;
-  font-family: 'Cinzel', 'Georgia', serif;
+  font-family: 'Muli', serif;
   font-weight: 700;
 }
 
